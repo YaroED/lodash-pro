@@ -1,0 +1,28 @@
+{
+  "name": "lodash-pro",
+  "version": "1.0.0",
+  "description": "base on lodash v4.17.21",
+  "author": "Yaro <852373851@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "module": "dist/index.esm.prod.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaroED/lodash-pro.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "lodash": "4.17.21"
+  }
+}
