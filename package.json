@@ -1,0 +1,17 @@
+{
+  "name": "lodash-pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard-version": "^9.3.2",
+    "jest": "28.0.2",
+    "prettier": "2.6.2"
+  }
+}
