@@ -1,6 +1,6 @@
 {
-  "name": "@yzy-space/lodash-pro",
-  "version": "1.0.2",
+  "name": "@yzy-space/lodash-test",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
