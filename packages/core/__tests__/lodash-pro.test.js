@@ -1,7 +1,7 @@
-'use strict';
-
-const lodashPro = require('..');
+const lodashPro = require('../index');
 
 describe('lodash-pro', () => {
-    it('needs tests');
+    test('isPhone', () => {
+        expect(lodashPro.isPhone(13312341234)).toBe(true)
+    });
 });
