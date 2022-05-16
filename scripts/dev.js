@@ -1,4 +1,5 @@
 const { build } = require('esbuild')
+const chalk = require('chalk')
 const execa = require('execa')
 const { resolve, relative } = require('path')
 const target = 'core'
@@ -34,4 +35,8 @@ Promise.all([
   })
 ]).then(() => {
   execa.sync('pnpm', ['format'], { stdio: 'inherit' })
+  console.log()
+  console.log(chalk.bold(chalk.yellow(`watching: ${relativeOutfileEsm}`)))
+  console.log(chalk.bold(chalk.yellow(`watching: ${relativeOutfileCjs}`)))
+  console.log()
 })

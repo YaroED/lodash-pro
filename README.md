@@ -1,10 +1,11 @@
 # `lodash-pro`
 
-lodash[https://www.lodashjs.com/]
-This repositorie is based on lodash v4.17.21, however, date processing and regular form verification are added.
+lodash docs[https://www.lodashjs.com/]
+This repositorie is based on lodash v4.17.21
+However, date processing and regular form verification are added.
 
 ## Usage
-common js
+Common js
 
 ```
 const lodashPro = require('lodash-pro');
@@ -14,12 +15,18 @@ const lodashPro = require('lodash-pro');
 or nice usage to ES module:
 
 ```
-use lodash-pro function
-import { dateFormat } from 'lodash-pro'
-import { isPhone } from 'lodash-pro'
+// use lodash-pro function
+import { dateFormat, isPhone, isIdCard } from 'lodash-pro'
 
-use lodash function
+dateFormat(undefined, 'yyyy-mm-dd HH:MM:ss')
+// expected output String: "2020-02-02 20:20:20"
+
+isPhone(13312341234)
+// expected output Boolean: true
+
+// use lodash function
 import { _ } from 'lodash-pro'
+
 _.random(1,10)
 _.max(1,10)
 
