@@ -11,26 +11,34 @@ const lodashPro = require('lodash-pro');
 
 ```
 
-or nice usage to es6:
+or nice usage to ES module:
 
 ```
+use lodash-pro function
 import { dateFormat } from 'lodash-pro'
 import { isPhone } from 'lodash-pro'
+
+use lodash function
+import { _ } from 'lodash-pro'
+_.random(1,10)
+_.max(1,10)
 
 ```
 
 ## Build
 
-```
-rollup src/index.js -f cjs -o dist/index.cjs.prod.js
-rollup src/index.js -f es -o dist/index.esm.prod.js
 
 ```
+pnpm dev
+
+```
+
 
 ## Contributing to lodash-pro
 
 
 Contributions are always welcome. Before contributing please read the code of conduct & search the issue tracker; your issue may have already been discussed or fixed in master. To contribute, fork Lodash, commit your changes, & send a pull request.
+
 
 
 ## Star And Sponsor
