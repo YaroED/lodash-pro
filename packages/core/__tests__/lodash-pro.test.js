@@ -5,6 +5,6 @@ describe('lodash-pro', () => {
     expect(lodashPro.isPhone(13312341234)).toBe(true)
   })
   test('random', () => {
-    expect(lodashPro.max([100, 1000])).toBe(1000)
+    expect(lodashPro._.max([100, 1000])).toBe(1000)
   })
 })
