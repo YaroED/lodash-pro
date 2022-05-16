@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-module.exports = shared;
+module.exports = shared
 
 function shared() {
-    // TODO
+  // TODO
 }

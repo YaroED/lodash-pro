@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node scripts/dev.js",
+    "format": "prettier --write \"packages/**/*.{js,ts}\"",
     "changelog": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,10 +13,17 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
     "esbuild": "0.14.38",
     "execa": "4.0.2",
     "jest": "28.0.2",
     "prettier": "2.6.2",
     "standard-version": "9.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
